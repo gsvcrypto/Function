@@ -9,7 +9,7 @@
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 const key = generateKey(16, characters);
 console.log(key); // eg599gb60q926j8i
-```
+
 3. Преобразуйте IP адрес (IPv4) в число, содержащее 4 байта адреса,
 сдвинутые битовым сдвигом, по такой схеме:
 - 1 байт сдвинут 3 раза на 8 бит влево
